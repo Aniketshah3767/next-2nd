@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Overpass+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    margin: 0;
+    /* text-align: center; */
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: 300;
+}
+.image{
+    width:100%;
+}
+.h1{
+    position: absolute;
+    top: 35rem;
+    color: grey;
+    letter-spacing: 5px;
+    left: 30px;
+    font-family: "Playfair Display"
+    
+}
+.top{
+    /* display: inline-block; */
+    width: 90%;
+    margin: auto auto auto 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+    width: 510px;
+    border-radius: 5px;
+    margin: 70px auto auto 50px;
+    /* height: 1000px; */
+}
+.text{
+    align-items: center;
+    line-height: 1.5;
+    margin: auto;
+    width: 44%;
+    text-align: left;
+    font-size: 16px;
+    /* letter-spacing: 1.2px; */
+    line-height: 1.8;
+}
+.text h1{
+    text-align: center;
+    margin: 20px auto 40px auto;
+    
+}
+.text h3{
+    text-align: center;
+    margin: 20px auto 10px auto;
+    letter-spacing: 4px;
+}
+span{
+    background-color:rgb(241, 234, 234);
+    padding: 2px 6px;
+}
+.text p{
+    padding: 20px auto;
+}
+/* .text1{
+    
+    width: 50%;
+    font-size: 20px;
+    color: grey;
+    text-align: left;
+    line-height: 1.5;
+    float: right;
+}
+.para{
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+    float: right;
+} */
+.dis{
+    width: 90%;
+    margin: 110px auto;
+    border: 0.3px solid rgb(248, 244, 244);
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+}
+.mid img{
+    border-radius: 6px;
+}
+.mid h2{
+    padding: 40px 0 0px 0 ;
+    letter-spacing: 4px;
+    font-weight: 80;
+}
+.mid p{
+    color: grey;
+
+}
+.button h1{
+    letter-spacing: 7px;
+    font-weight: 200;
+    padding: 0 0 55px 90px ;
+}
+.button p{
+    padding: 0 0 0 90px ; 
+    font-size: 15px;
+}
+.button h3{
+    padding: 20px 0 20px 90px ;
+    color: #607d8b;
+}
+.boxx{
+    width: 87%;
+    height: 40px;
+    border: none;
+    margin-left:87px;
+
+}
+.hr{
+    width: 87%;
+    border: 0.3px solid rgb(248, 244, 244);
+    padding: none;
+}
+.last{
+    padding: 8px 18px;
+    margin: 30px 87px 80px ;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+} 
+.footer{
+    height: 80px;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
